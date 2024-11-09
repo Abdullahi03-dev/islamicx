@@ -331,7 +331,7 @@ ul,p{
 }
 @media(max-width: 770px){
 	.prayer_time ul{
-	margin: 0 4px;
+	margin: 0 23px;
 }
 	.prayer_time1{
 		padding: 1.3rem 2.5rem;
