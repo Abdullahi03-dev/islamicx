@@ -1,0 +1,343 @@
+ul,p{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.banner{
+	/*display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5rem;*/
+	width: 100%;
+	height: 90vh;
+	background-image: url('../img/abdelmalek-bensetti-pXdMlUNzhTw-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.banner_text{
+	width: 78%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+}
+.banner_text h1{
+	padding: 0;
+	margin: 0;
+	margin-top: 2em;
+	width: 500px;
+	word-break: normal;
+	font-weight: 700;
+	color: white;
+}
+.banner_text h4{
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	color: white;
+}
+.banner_text1{
+	margin-bottom: 14rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*height: 100%;*/
+	width: 100%;
+	text-align: center;
+	width: 100%;
+}
+.banner_text1 h1{
+	color: #1089ff !important;
+	font-weight: 700;
+	padding: 1px 0;
+	text-align: center;
+}
+.banner_text1 h3{
+	color: white;
+	font-weight: 700;
+}
+.banner_text1 .cta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3px 0;
+}
+.banner_text1 .cta span:nth-child(1){
+
+	width:110px;
+	padding: 4px 5px;
+	background: #1089ff !important;
+	font-weight: 700;
+	color: white;
+	margin: 6px;
+	cursor: pointer;
+}
+.banner_text1 .cta span:nth-child(2){
+	width:110px;
+	border:2px solid #1089ff;
+	font-weight: 700;
+	color: white !important;
+	margin: 0 7px;
+	padding: 4px 5px;
+	cursor: pointer;
+}
+@media(max-width: 770px){
+	.banner{
+		height: 80vh;
+	}
+	.banner_text1{
+		margin-bottom: 23rem;
+	}
+	.banner_text h1{
+		width: 300px;
+		font-size: 25px;
+	}
+}
+
+
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.about_section {
+    width: 100%;
+    float: left;
+    /*padding: 90px 0px 0px 0px;*/
+    padding-bottom: 70px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #3b3a3a;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #5a5959;
+    margin-left: 0px;
+}
+
+.about_img {
+    width: 100%;
+    float: left;
+    background-image: url(../img/ashkan-forouzani-LaCell9GykQ-unsplash.jpg);
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+}
+
+.video_bt {
+    width: 100%;
+    padding: 155px 0px;
+}
+
+.play_icon img {
+    width: 80px;
+}
+
+.play_icon {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+
+.play_icon::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    width: 90px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(253, 164, 23, 0.8);
+    border-radius: 100%;
+    animation: fadeEffect 1.3s infinite ease;
+    box-shadow: 0px 0px 10px 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+@keyframes fadeEffect {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+.read_bt_1 {
+    width: 180px;
+    float: left;
+    margin-top: 20px;
+}
+
+.read_bt_1 a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    background: #1089ff !important;
+    color: #ffffff;
+    padding: 10px 0px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.read_bt_1 a:hover {
+    background-color: #fda417;
+    color: #ffffff;
+}
+@media(max-width: 770px){
+	.layout_padding {
+    padding-top: 25px;
+    padding-bottom: 65px;
+}	
+.read_bt_1 {
+    margin-top: 8px;
+}
+.about_img {
+	margin-top: 19px;
+}
+
+}
+
+
+/* about section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prayer_time_head{
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.prayer_time_head h3{
+	font-weight: 700;
+}
+.prayer_time_head span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.prayer_time_head span input{
+	width: 18rem;
+	padding: 3px 15px;
+	border-radius: 9px;
+	padding-left: 2em;
+	border: 1px solid gray;
+}
+.prayer_time_head span input:focus{
+	border: 1px solid skyblue;
+}
+.prayer_time_head span img{
+	position: relative;
+	left: 2em;
+	width: 30px;
+	height: 30px;
+}
+.prayer_time{
+	padding: 4rem 0;
+}
+.prayer_time h3{
+	/*margin-left: 4rem;*/
+}
+.prayer_time1{
+	padding: 1.3em 2.6em;
+	width: 80%;
+	margin: 2em auto;
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.prayer_time ul{
+	margin: 0 1.2em;
+}
+.prayer_time1 ul .icons{
+	width: 24px;
+	height: 24px;
+}
+.prayer_time1>div{
+	width: 450px;
+	word-break: normal;
+}
+.time{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.prayer_time_head span .icons1{
+	width: 20px;
+	height: 20px;
+}
+
+
+
+@media(max-width: 770px){
+	.prayer_time_head {
+	width: 100%;
+	padding: 2px 10px;
+}
+.prayer_time_head h3{
+	font-size: 22px;
+	font-weight: 700;
+}
+	.prayer_time_head span input{
+	width: 10em;
+	font-size: 18px;
+}
+.prayer_time1{
+	width: 98%;
+	flex-wrap: wrap;
+}
+.time{
+	align-self: center;
+	margin-top: 1.5em;
+}
+.prayer_time1>div{
+	align-self: flex-start;
+}
+}
+@media(max-width: 770px){
+	.prayer_time ul{
+	margin: 0 4px;
+}
+	.prayer_time1{
+		padding: 1.3rem 2.5rem;
+	}
+	.prayer_time1 ul .icons{
+	width: 17px;
+	height: 17px;
+}
+}
