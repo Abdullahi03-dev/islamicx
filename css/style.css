@@ -8356,14 +8356,17 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .3;
+    opacity: .7;
     background: #000000;
     height: 700px; }
   @media (max-width: 991.98px) {
     .hero-wrap {
       height: 800px; }
       .hero-wrap .overlay {
-        height: 800px; } }
+        height: 800px; 
+    opacity: .8;
+        }
+         }
   .hero-wrap.hero-wrap-2 {
     height: 600px !important;
     position: relative; }
